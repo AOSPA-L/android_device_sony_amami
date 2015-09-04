@@ -42,3 +42,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 # Quickboot
 PRODUCT_COPY_FILES += \
     device/sony/amami/prebuilt/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk 
+
+# bootrec-device
+PRODUCT_COPY_FILES += \
+    device/sony/amami/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device
+
